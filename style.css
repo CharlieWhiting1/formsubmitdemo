@@ -349,6 +349,13 @@ img.displaySlide{
     border: 2px solid black;
 }
 
+.contact-label{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
 /* FOOTER ----------------------*/
 
 .footer{

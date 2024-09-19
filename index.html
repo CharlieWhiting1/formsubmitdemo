@@ -129,14 +129,23 @@
         <h2 class="contact-me">Contact <span>Me</span></h2>
 
         <form action="https://formsubmit.co/c95dee12c6371fe527f8eb6c0dabc860" method="POST">
+            
+            <input type="text" name="_honey" style="display: none;">
+
+            <input type="hidden" name="_captcha" value="false">
 
             <div class="input-box">
+            <label for="name" class="contact-label">Name</label>
             <input type="text" name="name" required>
+            <label for="email" class="contact-label">Email</label>
             <input type="email" name="email" required>
+            <label for="number" class="contact-label">Phone Number</label>
+            <input type="number" name="number" required>
             </div>
 
             <div class="input-box">
-                <input type="text" name="Your Message" required>
+                <label for="Message" class="contact-label">Your Message</label>
+                <input type="text" name="Message" required>
             </div>
 
             <div class="contact-btn">
